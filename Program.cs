@@ -9,6 +9,8 @@ public class Vehicle
     private int year;
     private double rentalPrice;
 
+    public double RentalPrice { get; internal set; }
+
     // Constructor
     public Vehicle(string model, string manufacturer, int year, double rentalPrice)
     {
